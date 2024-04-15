@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "owner_properties",
       "isDefault": true
+    },
+    {
+      "id": "traveler_view_properties",
+      "isDefault": false
     }
   ],
   "viewMode": false,

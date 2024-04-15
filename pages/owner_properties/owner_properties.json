@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 550,
+          "bottomRow": 1080,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -34,6 +34,17 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "enter_ownerid.text"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "owner_properties_get_owner_property",
+              "name": "get_owner_property",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "enter_propertyid.text",
                 "enter_ownerid.text"
               ],
               "timeoutInMillisecond": 10000

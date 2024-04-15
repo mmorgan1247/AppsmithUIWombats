@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "JSObject1",
-    "pageId": "owner_properties",
+    "pageId": "owner_view_create_properties",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -18,7 +18,7 @@
     ],
     "userPermissions": []
   },
-  "id": "owner_properties_JSObject1",
+  "id": "owner_view_create_properties_JSObject1",
   "deleted": false,
   "gitSyncId": "661c70cc177a981dfe8df654_661d7642088e301f6793fe53"
 }

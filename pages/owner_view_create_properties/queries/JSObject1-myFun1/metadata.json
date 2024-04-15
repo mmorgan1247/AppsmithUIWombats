@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun2",
-    "fullyQualifiedName": "JSObject1.myFun2",
+    "name": "myFun1",
+    "fullyQualifiedName": "JSObject1.myFun1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "owner_properties",
-    "collectionId": "owner_properties_JSObject1",
+    "pageId": "owner_view_create_properties",
+    "collectionId": "owner_view_create_properties_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-15T18:47:30Z"
   },
-  "id": "owner_properties_JSObject1.myFun2",
+  "id": "owner_view_create_properties_JSObject1.myFun1",
   "deleted": false,
-  "gitSyncId": "661c70cc177a981dfe8df654_661d7642088e301f6793fe50"
+  "gitSyncId": "661c70cc177a981dfe8df654_661d7642088e301f6793fe4f"
 }

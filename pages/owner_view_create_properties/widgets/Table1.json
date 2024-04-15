@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 80,
+    "topRow": 19,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -12,7 +12,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tableData"},
         {"key": "primaryColumns.address.computedValue"},
         {"key": "primaryColumns.city.computedValue"},
         {"key": "primaryColumns.country.computedValue"},
@@ -22,10 +21,11 @@
         {"key": "primaryColumns.propertyID.computedValue"},
         {"key": "primaryColumns.region.computedValue"},
         {"key": "primaryColumns.title.computedValue"},
-        {"key": "primaryColumns.type.computedValue"}
+        {"key": "primaryColumns.type.computedValue"},
+        {"key": "tableData"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 12,
+    "leftColumn": 4,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -64,38 +64,38 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713217503432,
-    "originalBottomRow": 105,
+    "columnUpdatedAt": 1713144483099,
+    "originalBottomRow": 62,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
-    "mobileBottomRow": 90,
-    "widgetName": "Table2",
+    "mobileBottomRow": 41,
+    "widgetName": "Table1",
     "defaultPageSize": 0,
     "columnOrder": [
+        "title",
+        "type",
+        "description",
+        "price",
         "address",
         "city",
         "country",
-        "description",
-        "ownerID",
-        "price",
-        "propertyID",
         "region",
-        "title",
-        "type"
+        "ownerID",
+        "propertyID"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 108,
+    "bottomRow": 62,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 44,
-    "parentColumnSpace": 14.8125,
+    "parentColumnSpace": 16.25,
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "primaryColumns": {
         "country": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"country\"]))}}",
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"country\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "country",
@@ -126,7 +126,7 @@
             "verticalAlignment": "CENTER"
         },
         "address": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"address\"]))}}",
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"address\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "address",
@@ -157,7 +157,7 @@
             "verticalAlignment": "CENTER"
         },
         "city": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"city\"]))}}",
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"city\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "city",
@@ -188,7 +188,7 @@
             "verticalAlignment": "CENTER"
         },
         "price": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"price\"]))}}",
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"price\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "price",
@@ -219,7 +219,7 @@
             "verticalAlignment": "CENTER"
         },
         "description": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"description\"]))}}",
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"description\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "description",
@@ -250,7 +250,7 @@
             "verticalAlignment": "CENTER"
         },
         "ownerID": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ownerID\"]))}}",
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ownerID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "ownerID",
@@ -281,7 +281,7 @@
             "verticalAlignment": "CENTER"
         },
         "region": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"region\"]))}}",
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"region\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "region",
@@ -312,7 +312,7 @@
             "verticalAlignment": "CENTER"
         },
         "title": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "title",
@@ -343,7 +343,7 @@
             "verticalAlignment": "CENTER"
         },
         "type": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"type\"]))}}",
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"type\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "type",
@@ -374,7 +374,7 @@
             "verticalAlignment": "CENTER"
         },
         "propertyID": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"propertyID\"]))}}",
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"propertyID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "propertyID",
@@ -405,23 +405,23 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "key": "z31yip4qre",
+    "key": "nw0fnms24x",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 54,
     "textSize": "0.875rem",
-    "widgetId": "do7ifui4df",
+    "widgetId": "sffbo6wydz",
     "minWidth": 450,
-    "tableData": "{{get_owner_property.data}}",
+    "tableData": "{{get_owner_properties.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
     "renderMode": "CANVAS",
-    "mobileTopRow": 62,
+    "mobileTopRow": 13,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 77,
+    "originalTopRow": 19,
     "mobileLeftColumn": 10,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

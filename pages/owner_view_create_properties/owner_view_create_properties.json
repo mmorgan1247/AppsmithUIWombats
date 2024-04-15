@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "owner_properties",
-    "slug": "owner-properties",
+    "name": "owner_view_create_properties",
+    "slug": "owner-view-create-properties",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1080,
+          "bottomRow": 2000,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,7 +29,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "owner_properties_get_owner_properties",
+              "id": "owner_view_create_properties_get_owner_properties",
               "name": "get_owner_properties",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -39,7 +39,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "owner_properties_get_owner_property",
+              "id": "owner_view_create_properties_get_owner_property",
               "name": "get_owner_property",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -53,7 +53,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "owner_properties",
+        "id": "owner_view_create_properties",
         "deleted": false,
         "policies": [],
         "userPermissions": []

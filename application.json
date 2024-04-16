@@ -7,6 +7,10 @@
     {
       "id": "traveler_view_properties",
       "isDefault": false
+    },
+    {
+      "id": "owner_manage_customer_stays",
+      "isDefault": false
     }
   ],
   "viewMode": false,

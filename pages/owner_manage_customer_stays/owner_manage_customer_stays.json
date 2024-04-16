@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1170,
+          "bottomRow": 1400,
           "containerStyle": "none",
           "snapRows": 69,
           "parentRowSpace": 1,
@@ -27,6 +27,27 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "owner_manage_customer_stays_get_messages_all",
+              "name": "get_messages_all",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "input_ownerid.text"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "owner_manage_customer_stays_get_messages_trav",
+              "name": "get_messages_trav",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "input_ownerid.text",
+                "input_travid.text"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "owner_manage_customer_stays_get_stay_ats",
               "name": "get_stay_ats",

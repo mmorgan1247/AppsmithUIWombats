@@ -11,6 +11,10 @@
     {
       "id": "owner_manage_customer_stays",
       "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "viewMode": false,

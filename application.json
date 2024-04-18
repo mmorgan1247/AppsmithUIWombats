@@ -23,6 +23,9 @@
   },
   "color": "#EAEDFB",
   "icon": "hat",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

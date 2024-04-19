@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "owner_manage_properties",
-    "slug": "owner-manage-properties",
+    "name": "Page2",
+    "slug": "page2",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 2560,
+          "bottomRow": 2270,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 114,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 1160,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,33 +28,52 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "owner_manage_properties_get_owner_properties",
-              "name": "get_owner_properties",
+              "id": "Page2_GET_Adliason_info",
+              "name": "GET_Adliason_info",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Page2_GET_ad_info",
+              "name": "GET_ad_info",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "enter_ownerid.text"
+                "Experience_ads.text"
               ],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "owner_manage_properties_get_owner_property",
-              "name": "get_owner_property",
+              "id": "Page2_GET_advertisersinfo",
+              "name": "GET_advertisersinfo",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "enter_propertyid.text",
-                "enter_ownerid.text"
+                "Ad_info.text"
               ],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "owner_manage_properties_get_property_reviews",
-              "name": "get_property_reviews",
+              "id": "Page2_GET_property_data",
+              "name": "GET_property_data",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "enter_propertyid.text"
+                "Property_data.text"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page2_Get_travel_data",
+              "name": "Get_travel_data",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Traveler_data.text"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -63,16 +81,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "owner_manage_properties",
+        "id": "Page2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": false
+    "policies": []
   },
   "deleted": false,
-  "gitSyncId": "661c70cc177a981dfe8df654_661c70cd177a981dfe8df656"
+  "gitSyncId": "6621c83c09eada30ea42ce6a_6621c88409eada30ea42ceac"
 }

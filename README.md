@@ -1,11 +1,7 @@
-# AppsmithUIWombats![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
+# Burrow Finder Appsmith
 
-This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
+**To open Appsmith, navigate to localhost:8080 in your browser**
 
-![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/images/integrations.png)
+## Description of UI
+Our user interface has been built out for three personas: Owners, Experience Providers, and Advertisers. Starting at the landing/login page, one can navigate to their personas respective pages, each tailored to the use cases of each. Owners can manage their properties as well as create booking and communicate with customers. Experience Providers can manage their bundle offerings, create and view advertisements, as well as manage experience bookings with customers. Advertisers can view valuable information on the platform, represented through their BurrowConnect liaison. Advertisers on the platform can also view dashboarded information on customer data and property data, as well as all advertisements they have posted on the website. 
 
-### [Github](https://github.com/appsmithorg/appsmith) • [Docs](https://docs.appsmith.com/?utm_source=github&utm_medium=social&utm_content=appsmith_docs&utm_campaign=null&utm_term=appsmith_docs) • [Community](https://community.appsmith.com/) • [Tutorials](https://github.com/appsmithorg/appsmith/tree/update/readme#tutorials) • [Youtube](https://www.youtube.com/appsmith) • [Discord](https://discord.gg/rBTTVJp)
-
-##### You can visit the application using the below link
-
-###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](http://localhost:8080/applications/661c70cc177a981dfe8df654/pages/661c70cd177a981dfe8df657) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](http://localhost:8080/applications/661c70cc177a981dfe8df654/pages/661c70cd177a981dfe8df657/edit)

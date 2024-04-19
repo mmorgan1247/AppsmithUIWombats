@@ -1,0 +1,78 @@
+{
+  "unpublishedPage": {
+    "name": "Experience Ads",
+    "slug": "experience-ads",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 3350,
+          "containerStyle": "none",
+          "snapRows": 53,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 550,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Experience Ads_get_ad",
+              "name": "get_ad",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "ad_id_button.text",
+                "prov_id_button.text"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Experience Ads_get_provider_ads",
+              "name": "get_provider_ads",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "delete_advertisement_form.formData",
+                "all_ads_button.text"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Experience Ads_get_provider_reviews",
+              "name": "get_provider_reviews",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "all_ads_button.text"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Experience Ads",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6621deac98196603bcdc49cb_6621e00398196603bcdc4a4e"
+}

@@ -1,27 +1,39 @@
 {
   "pages": [
     {
-      "id": "owner_manage_properties",
+      "id": "Home Page",
       "isDefault": true
     },
     {
-      "id": "traveler_view_properties",
+      "id": "Owner Manage Property",
       "isDefault": false
     },
     {
-      "id": "owner_manage_customer_stays",
+      "id": "Owner Manage Customers",
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "Advertiser",
       "isDefault": false
     },
     {
-      "id": "Experience Providers",
+      "id": "Owner Landing",
       "isDefault": false
     },
     {
-      "id": "Page2",
+      "id": "View Experience",
+      "isDefault": false
+    },
+    {
+      "id": "Experience Ads",
+      "isDefault": false
+    },
+    {
+      "id": "Experience Bundles",
+      "isDefault": false
+    },
+    {
+      "id": "Experience Landing Page",
       "isDefault": false
     }
   ],

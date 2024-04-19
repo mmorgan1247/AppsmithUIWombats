@@ -1,0 +1,96 @@
+{
+  "unpublishedPage": {
+    "name": "Advertiser",
+    "slug": "advertiser",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 2270,
+          "containerStyle": "none",
+          "snapRows": 53,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 550,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Advertiser_GET_Adliason_info",
+              "name": "GET_Adliason_info",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Advertiser_GET_ad_info",
+              "name": "GET_ad_info",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Experience_ads.text"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Advertiser_GET_advertisersinfo",
+              "name": "GET_advertisersinfo",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Ad_info.text"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Advertiser_GET_property_data",
+              "name": "GET_property_data",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Property_data.text"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Advertiser_Get_travel_data",
+              "name": "Get_travel_data",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Traveler_data.text"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Advertiser",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6621deac98196603bcdc49cb_6621df7998196603bcdc4a21"
+}

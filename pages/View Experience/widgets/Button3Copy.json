@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 450,
     "widgetName": "Button3Copy",
-    "onClick": "{{get_provider_ads.run();\nget_provider_reviews.run()}}",
+    "onClick": "{{get_traveler_info.run();\nget_traveler_experience.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

@@ -15,6 +15,10 @@
     {
       "id": "Page1",
       "isDefault": false
+    },
+    {
+      "id": "Experience Providers",
+      "isDefault": false
     }
   ],
   "viewMode": false,

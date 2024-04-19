@@ -8,7 +8,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/e/experience/1/1"
+        "url": ""
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Experience Providers",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -40,8 +40,12 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [
+      {
+        "key": "path"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
@@ -52,9 +56,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T21:10:21Z"
+    "createdAt": "2024-04-18T23:08:12Z"
   },
-  "id": "Page1_get_traveler_experience",
+  "id": "Experience Providers_get_traveler_experience",
   "deleted": false,
-  "gitSyncId": "66218b757381054aa252eadd_66218c3d7381054aa252eb26"
+  "gitSyncId": "66218b757381054aa252eadd_6621a7dc7381054aa252eb5b"
 }

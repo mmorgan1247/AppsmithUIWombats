@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 2270,
+          "bottomRow": 2260,
           "containerStyle": "none",
-          "snapRows": 53,
+          "snapRows": 115,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 550,
+          "minHeight": 1170,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -32,11 +32,11 @@
               "name": "GET_Adliason_info",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "Ad_liason.text"
+              ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Advertiser_GET_ad_info",
               "name": "GET_ad_info",
@@ -92,5 +92,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6621deac98196603bcdc49cb_6621df7998196603bcdc4a21"
+  "gitSyncId": "6621f069f46304432cbcca21_6621f138f46304432cbcca80"
 }

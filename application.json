@@ -13,10 +13,6 @@
       "isDefault": false
     },
     {
-      "id": "Advertiser",
-      "isDefault": false
-    },
-    {
       "id": "Owner Landing",
       "isDefault": false
     },
@@ -34,6 +30,10 @@
     },
     {
       "id": "Experience Landing Page",
+      "isDefault": false
+    },
+    {
+      "id": "Advertiser",
       "isDefault": false
     }
   ],

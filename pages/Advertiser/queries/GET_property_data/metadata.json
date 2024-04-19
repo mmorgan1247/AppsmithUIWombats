@@ -56,9 +56,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-19T03:06:40Z"
+    "createdAt": "2024-04-19T04:22:15Z"
   },
   "id": "Advertiser_GET_property_data",
   "deleted": false,
-  "gitSyncId": "6621deac98196603bcdc49cb_6621dfc098196603bcdc4a43"
+  "gitSyncId": "6621f069f46304432cbcca21_6621f177f46304432cbcca8b"
 }

@@ -1,5 +1,7 @@
 # Burrow Finder Appsmith
 
+Contributors: Benjamin Pierce, Souren Prakash, Mackinley Morgan, Atharva Nilapwar, Abhir Naik
+
 **To open Appsmith, navigate to localhost:8080 in your browser**
 
 ## Description of UI

@@ -46,9 +46,7 @@
                 "traveleridbutton.text"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "View Experience_get_traveler_info",
               "name": "get_traveler_info",
